@@ -5,4 +5,4 @@ from .models import Servicio
 class ServicioAdmin(admin.ModelAdmin):
     readonly_fields=('created', 'update')
 
-admin.site.register(Servicio,ServicioAdmin)                    
+admin.site.register(Servicio,ServicioAdmin)
